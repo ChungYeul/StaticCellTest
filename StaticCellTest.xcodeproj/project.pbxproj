@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81D55A1187BFF570036AFA8 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D559E187BFF570036AFA8 /* Product.m */; };
+		F81D55A2187BFF570036AFA8 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D55A0187BFF570036AFA8 /* ProductCell.m */; };
+		F81D55A8187C01640036AFA8 /* rugbyball.png in Resources */ = {isa = PBXBuildFile; fileRef = F81D55A3187C01640036AFA8 /* rugbyball.png */; };
+		F81D55A9187C01640036AFA8 /* volleyball.png in Resources */ = {isa = PBXBuildFile; fileRef = F81D55A4187C01640036AFA8 /* volleyball.png */; };
+		F81D55AA187C01640036AFA8 /* baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = F81D55A5187C01640036AFA8 /* baseball.png */; };
+		F81D55AB187C01640036AFA8 /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = F81D55A6187C01640036AFA8 /* basketball.png */; };
+		F81D55AC187C01640036AFA8 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = F81D55A7187C01640036AFA8 /* football.png */; };
 		F8456D58187AE9D40001BECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8456D57187AE9D40001BECA /* Foundation.framework */; };
 		F8456D5A187AE9D40001BECA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8456D59187AE9D40001BECA /* CoreGraphics.framework */; };
 		F8456D5C187AE9D40001BECA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8456D5B187AE9D40001BECA /* UIKit.framework */; };
@@ -34,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F81D559D187BFF570036AFA8 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		F81D559E187BFF570036AFA8 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		F81D559F187BFF570036AFA8 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		F81D55A0187BFF570036AFA8 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		F81D55A3187C01640036AFA8 /* rugbyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugbyball.png; sourceTree = "<group>"; };
+		F81D55A4187C01640036AFA8 /* volleyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volleyball.png; sourceTree = "<group>"; };
+		F81D55A5187C01640036AFA8 /* baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball.png; sourceTree = "<group>"; };
+		F81D55A6187C01640036AFA8 /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball.png; sourceTree = "<group>"; };
+		F81D55A7187C01640036AFA8 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
 		F8456D54187AE9D40001BECA /* StaticCellTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticCellTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8456D57187AE9D40001BECA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F8456D59187AE9D40001BECA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +128,15 @@
 		F8456D5D187AE9D40001BECA /* StaticCellTest */ = {
 			isa = PBXGroup;
 			children = (
+				F81D55A3187C01640036AFA8 /* rugbyball.png */,
+				F81D55A4187C01640036AFA8 /* volleyball.png */,
+				F81D55A5187C01640036AFA8 /* baseball.png */,
+				F81D55A6187C01640036AFA8 /* basketball.png */,
+				F81D55A7187C01640036AFA8 /* football.png */,
+				F81D559D187BFF570036AFA8 /* Product.h */,
+				F81D559E187BFF570036AFA8 /* Product.m */,
+				F81D559F187BFF570036AFA8 /* ProductCell.h */,
+				F81D55A0187BFF570036AFA8 /* ProductCell.m */,
 				F8456D66187AE9D40001BECA /* AppDelegate.h */,
 				F8456D67187AE9D40001BECA /* AppDelegate.m */,
 				F8456D69187AE9D40001BECA /* Main.storyboard */,
@@ -228,8 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81D55A8187C01640036AFA8 /* rugbyball.png in Resources */,
 				F8456D70187AE9D40001BECA /* Images.xcassets in Resources */,
+				F81D55AC187C01640036AFA8 /* football.png in Resources */,
 				F8456D62187AE9D40001BECA /* InfoPlist.strings in Resources */,
+				F81D55AB187C01640036AFA8 /* basketball.png in Resources */,
+				F81D55AA187C01640036AFA8 /* baseball.png in Resources */,
+				F81D55A9187C01640036AFA8 /* volleyball.png in Resources */,
 				F8456D6B187AE9D40001BECA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81D55A2187BFF570036AFA8 /* ProductCell.m in Sources */,
 				F8456D6E187AE9D40001BECA /* ViewController.m in Sources */,
+				F81D55A1187BFF570036AFA8 /* Product.m in Sources */,
 				F8456D68187AE9D40001BECA /* AppDelegate.m in Sources */,
 				F8456D64187AE9D40001BECA /* main.m in Sources */,
 			);
@@ -460,6 +492,7 @@
 				F8456D88187AE9D40001BECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8456D89187AE9D40001BECA /* Build configuration list for PBXNativeTarget "StaticCellTestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +501,7 @@
 				F8456D8B187AE9D40001BECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
